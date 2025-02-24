@@ -1,9 +1,73 @@
-import Image from 'next/image'
 import styles from './page.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className={styles.grid}>
+        <div className={styles.card}>
+          <Image
+            src="/web.svg"
+            alt="Web Dev Icon"
+            className={styles.icon}
+            width={40}
+            height={40}
+            priority
+          />
+          <div>
+            <p className={styles.heading}>Web Development</p>
+            <p className={styles.paragraph}>Developing high-quality websites for seamless user experiences.</p>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src="/seo.svg"
+            alt="SEO Icon"
+            className={styles.icon}
+            width={40}
+            height={40}
+            priority
+          />
+          <div>
+            <p className={styles.heading}>SEO</p>
+            <p className={styles.paragraph}>Maximizing visibility on major search engines.</p>
+          </div>     
+        </div>
+        <div className={styles.card}>
+          <Image
+            src="/security.svg"
+            alt="Security Icon"
+            className={styles.icon}
+            width={40}
+            height={40}
+            priority
+          />
+          <div>
+            <h1 className={styles.heading}>Cybersecurity</h1>
+            <p className={styles.paragraph}>Securing your website against common threats.</p>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src="/app.svg"
+            alt="Construction Icon"
+            className={styles.icon}
+            width={40}
+            height={40}
+            priority
+          />
+          <div>
+            <h1 className={styles.heading}>Custom Software</h1>
+            <p className={styles.paragraph}>Engineering web applications to meet specific business needs.</p>
+          </div>
+        </div>
+      </div> 
+    </main>
+  )
+}
+
+/*
+<main className={styles.main}>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -91,5 +155,4 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
-}
+    */

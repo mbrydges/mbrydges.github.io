@@ -2,9 +2,6 @@
 const nextConfig = {
     output: "export",
     basePath: process.env.NODE_ENV === "production" ? "/mbrydges": "",
-    experimental: {
-      appDir: true,
-    },
     images: {
       unoptimized: true,
     },
