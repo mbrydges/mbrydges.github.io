@@ -1,19 +1,8 @@
 :root {
-  --icon-size: 56px;
-  --icon-rgb: 34, 34, 34;
-  --max-width: 1100px;
-
-  --heading-rgb: 34, 34, 34;
-  --body-rgb: 57, 57, 57;
-
   --border-radius: 1rem;
   --border-width: 1px;
-  --border-rgb: 221, 221, 221;
-
-  --card-height: 218px;
-  --card-width: 100%;
-  --card-padding-x: 1rem;
-  --card-padding-y: 1.5rem;
+  --border-rgb: 238, 238, 238;
+  --cell-size: 80px
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +28,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
 
