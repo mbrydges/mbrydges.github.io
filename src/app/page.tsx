@@ -4,12 +4,12 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className={styles.main} id="welcome">
-      <nav className={styles.header}>
+      <header className={styles.header_container}>
         <div className={styles.link_container}>
           <a href="#contact" className={styles.header_link}>Contact</a>
           <a href="#questions" className={styles.header_link}>FAQs</a>
         </div>
-      </nav>
+      </header>
       
       <div className={styles.hero_container}>
         <div className={styles.hero_content}>
