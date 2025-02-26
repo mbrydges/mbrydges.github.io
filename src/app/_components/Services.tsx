@@ -40,8 +40,9 @@ const cards = [
 ]
 
 export default async function Services() { 
-  return cards.map(({src, alt, title, description}) => (
-    <Card 
+  return cards.map(({src, alt, title, description}, index) => (
+    <Card
+      key={index} 
       src={src}
       alt={alt}
       title={title}

@@ -10,8 +10,8 @@ const icons = [
 ]
 
 export default async function Contact() { 
-  return icons.map(({src, alt, href}) => (
-    <a href={href} target="_blank" className={styles.header_link}>
+  return icons.map(({src, alt, href}, index) => (
+    <a key={index} href={href} target="_blank" className={styles.header_link}>
       <Image
         src={src}
         alt={alt}
