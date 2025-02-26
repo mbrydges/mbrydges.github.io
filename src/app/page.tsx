@@ -1,7 +1,5 @@
 import styles from './page.module.css'
-import Accordion from './_components/Accordion'
 import Services from './_components/Services'
-import Faqs from './_components/FAQs'
 import Contact from './_components/Contact'
 
 
