@@ -5,7 +5,7 @@ const icons = [
   {
     src: "/reddit.svg",
     alt: 'Reddit Icon',
-    href: 'https://www.reddit.com/r/volunteerDev/'
+    href: 'https://www.reddit.com/r/ask_a_web_developer/'
   },
 ]
 
