@@ -1,8 +1,11 @@
 :root {
-  --border-radius: 1rem;
+  --header-height: 80px;
+  --background-rgb: 255, 255, 255;
+  --border-radius: 0.75rem;
   --border-width: 2px;
   --border-rgb: 238, 238, 238;
-  --cell-size: 80px
+  --cell-size: 80px;
+  --heading-rgb: 34, 34, 34;
 }
 
 * {

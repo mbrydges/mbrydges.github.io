@@ -9,7 +9,7 @@ const roboto = Roboto({
 
 /* Improve SEO by generating <head> elements for pages */ 
 export const metadata: Metadata = {
-  title: 'Free Web Development Service',
+  title: 'Volunteer Dev',
   description: 'I will build you a free website for your business.'
 }
 
