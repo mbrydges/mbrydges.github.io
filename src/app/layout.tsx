@@ -9,8 +9,8 @@ const roboto = Roboto({
 
 /* Improve SEO by generating <head> elements for pages */ 
 export const metadata: Metadata = {
-  title: 'Volunteer Dev',
-  description: 'I will build you a free website for your business.'
+  title: 'mbrydges',
+  description: 'I build digital solutions for small businesses.'
 }
 
 export default function RootLayout({

@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 import Services from './_components/Services'
 import Contact from './_components/Contact'
-
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -9,6 +9,14 @@ export default function Home() {
       
       <header className={styles.header_container}>
         <div className={styles.link_container}>
+          <Image
+            src="mb.svg"
+            alt="logo"
+            className={styles.icon}
+            width={48}
+            height={48}
+            priority
+          />
           <a href="#contact" className={styles.header_link}>Contact</a>
         </div>
       </header>
@@ -16,7 +24,7 @@ export default function Home() {
       <div className={styles.hero_container}>
         <div className={styles.hero_content}>
           <p className={styles.hero_heading}>I build digital <span className={styles.highlight}>solutions</span> for small businesses</p>
-          <p className={styles.subheading}>...and my services are free!</p>
+          <p className={styles.subheading}>Transform your idea into reality</p>
           <a href="#about" className={styles.button}>Learn more</a>
         </div>
       </div>

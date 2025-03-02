@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 const icons = [
   {
-    src: "/reddit.svg",
-    alt: 'Reddit Icon',
-    href: 'https://www.reddit.com/r/ask_a_web_developer/'
+    src: "/email.svg",
+    alt: 'Email Icon',
+    href: "mailto:mbrydges@proton.me"
   },
 ]
 
 export default async function Contact() { 
   return icons.map(({src, alt, href}, index) => (
-    <a key={index} href={href} target="_blank" className={styles.header_link}>
+    <a key={index} href={href} className={styles.header_link}>
       <Image
         src={src}
         alt={alt}
