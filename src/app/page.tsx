@@ -24,7 +24,7 @@ export default function Home() {
       <div className={styles.hero_container}>
         <div className={styles.hero_content}>
           <p className={styles.hero_heading}>I build digital <span className={styles.highlight}>solutions</span> for small businesses</p>
-          <p className={styles.subheading}>Transform your idea into reality</p>
+          <p className={styles.subheading}>Turning ideas into outcomes that matter.</p>
           <a href="#about" className={styles.button}>Learn more</a>
         </div>
       </div>
